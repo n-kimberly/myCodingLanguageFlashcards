@@ -1,0 +1,31 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "ssml": "<speak> Okay, I will ask you some questions about PYTHON. Here is your first question. HOW DO YOU FIND THE LENGTH OF A STRING? </speak>",
+      "type": "SSML"
+    },
+    "reprompt": {
+      "outputSpeech": {
+        "ssml": "<speak> HOW DO YOU FIND THE LENGTH OF A STRING? </speak>",
+        "type": "SSML"
+      }
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "ssml": "<speak> Okay, I will ask you some questions about PYTHON. Here is your first question. HOW DO YOU FIND THE LENGTH OF A STRING? </speak>"
+      },
+      "reprompt": {
+        "outputSpeech": {
+          "ssml": "<speak> HOW DO YOU FIND THE LENGTH OF A STRING? </speak>"
+        }
+      },
+      "shouldEndSession": false
+    }
+  },
+  "sessionAttributes": {
+    "numberCorrect": 0,
+    "currentFlashcardIndex": 0,
+    "language": "python"
+  }
+}

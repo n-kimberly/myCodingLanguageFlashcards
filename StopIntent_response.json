@@ -1,0 +1,20 @@
+{
+  "version": "1.0",
+  "response": {
+    "outputSpeech": {
+      "ssml": "<speak> Exiting Coding Language Trivia. Let's play again soon. </speak>",
+      "type": "SSML"
+    },
+    "speechletResponse": {
+      "outputSpeech": {
+        "ssml": "<speak> Exiting Coding Language Trivia. Let's play again soon. </speak>"
+      },
+      "shouldEndSession": true
+    }
+  },
+  "sessionAttributes": {
+    "numberCorrect": 1,
+    "currentFlashcardIndex": 2,
+    "language": "python"
+  }
+}

@@ -1,32 +1,28 @@
-# **My Coding Language Trivia Skill**
+# **My Coding Language Flashcards Skill**
 
-## This Alexa sample skill is a trivia style game with score keeping. Alexa will ask you a coding language trivia questions and seek your response.
+### This Alexa sample skill iterates through flashcards and keeps score to quiz the user on coding language trivia.
 
 <h1 style="text-align: center;"> Example </h1>
 
-> open coding language trivia
+> open coding language flashcards
 
-      Welcome to coding language trivia. In this session, do you want to test your knowledge in Ruby or Python?
+      Welcome to coding language flashcards. Do you want to test your knowledge in Ruby, Python, or JavaScript?
 
-> practice python
+> practice javascript
 
-      Okay, I will ask you some questions about PYTHON. Here is your first question. HOW DO YOU FIND THE LENGTH OF A STRING?
+      Okay, I will ask you some questions about javascript. Here is your first question. How do you find the length of a string?
 
-> is it len?
+> is it length?
 
-      Nice job! The correct answer is len. You have gotten 1 out of 3 python questions correct. Next question, HOW DO YOU PRINT TO THE CONSOLE OR TERMINAL
+       Nice job! The correct answer is length. You have gotten 1 out of 3 javascript questions correct. Here is your next question. How do you print to the console or terminal?
 
 > is it puts?
 
-      Sorry, the correct answer is print. You have gotten 1 out of 3 python questions correct. Here is your next question: ARE BOOLEAN TERMS CAPITALIZED? YES OR NO?
-
-> yes
-
-      Nice job! The correct answer is yes. You have gotten 2 out of 3 python questions correct. Next question, THERE ARE NO MORE QUESTIONS- CONGRATULATIONS! PLEASE EXIT THE APPLICATION.
+      Sorry, the correct answer is console.log. You have gotten 1 out of 3 javascript questions correct. Here is your next question. Are the boolean terms true and false capitalized?
 
 > exit trivia
 
-       Exiting Coding Language Trivia. Let's play again soon.
+       Exiting Coding Language Flashcards. Let's play again soon.
 
 <h1 style="text-align: center;"> Skill Details </h1>
 
@@ -38,11 +34,13 @@
 
       Test my {language}
 
-#### language slot values:
+#### languages slot values:
 
       python
 
       ruby
+
+      javascript
 
 #### AnswerIntent sample utterances:
 
@@ -65,3 +63,5 @@
       yes
 
       no
+
+      console.log
